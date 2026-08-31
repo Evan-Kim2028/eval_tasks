@@ -1,0 +1,15 @@
+jobs/
+jobs-*/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+.codex/
+*.log
+.DS_Store
+CLAUDE_CODE_OAUTH_TOKEN
+.oauth-token
