@@ -1,5 +1,8 @@
 {
+  "last_committed_window": "2026-03-17",
+  "progress_ledger": "2026-03-18",
+  "serving_as_of": "2026-03-18",
+  "serving_tip": "anchor-mark",
   "ledger_equals_last_committed_day": true,
-  "serving_aligned": true,
-  "note": "dashboard snapshot"
+  "note": "dashboard snapshot — may lag the catalog"
 }
