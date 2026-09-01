@@ -3,6 +3,7 @@ jobs-*/
 .env
 .env.*
 !.env.example
+docs/internal/
 .venv/
 __pycache__/
 *.pyc

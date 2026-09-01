@@ -1,0 +1,6 @@
+{
+  "catalog_commit": "ok",
+  "frame_rebuild": "failed",
+  "checkpoint_advanced": true,
+  "note": "publish worker exited 0 after catalog phase"
+}
