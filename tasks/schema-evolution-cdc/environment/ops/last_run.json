@@ -1,0 +1,6 @@
+{
+  "catalog_commit": "ok",
+  "checkpoint_advanced": true,
+  "schema_epoch": "compatible",
+  "note": "batch runner exited after head publish"
+}

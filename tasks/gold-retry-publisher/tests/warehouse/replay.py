@@ -25,9 +25,12 @@ from warehouse.settings import LOOKBACK_DAYS
 def _crash_retry_demo() -> int:
     ledger = ProgressLedger("")
     committed: list[str] = []
+    crashed_once = False
 
     def commit(day: str) -> None:
-        if day == (ANCHOR_DAY - timedelta(days=1)).isoformat() and len(committed) == 0:
+        nonlocal crashed_once
+        if day == (ANCHOR_DAY - timedelta(days=1)).isoformat() and not crashed_once:
+            crashed_once = True
             raise RuntimeError("publisher killed mid-window")
         committed.append(day)
 

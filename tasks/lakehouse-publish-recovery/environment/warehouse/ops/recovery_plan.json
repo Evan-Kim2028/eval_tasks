@@ -1,0 +1,6 @@
+{
+  "phase_1_catalog": "complete",
+  "phase_2_frames": "skipped",
+  "phase_3_checkpoint": "advanced",
+  "operator_note": "publish worker exited 0 after catalog phase"
+}

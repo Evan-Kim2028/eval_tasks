@@ -1,0 +1,6 @@
+{
+  "nightly_ledger": "caught_up",
+  "serving_tip": "fresh",
+  "reload_scan": "entity_only_ok",
+  "note": "control-plane snapshot after partial nightly"
+}

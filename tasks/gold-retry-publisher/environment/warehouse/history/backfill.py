@@ -20,7 +20,7 @@ def seed_past_days(
         as_of = anchor_day - timedelta(days=offset)
         payload = payload_for(as_of)
         write_day(store, as_of, payload)
-        # Refresh serving tip on each day so readers never observe a hole mid-run.
+        # Keep serving aligned with the day being materialized during long seeds.
         publish_tip(store, as_of, payload)
         written += 1
     return written

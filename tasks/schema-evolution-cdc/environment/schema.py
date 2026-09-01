@@ -15,6 +15,7 @@ def make_schema(rows: list[dict], previous: dict | None) -> dict:
     if epoch_for(rows) == 2 or (previous and previous["epoch"] == 2):
         fields.append("email")
 
+    # Reuse stable field ids when epoch-2 begins so mixed readers stay compatible.
     # Field numbers are only local encoding details, so restarting at one is
     # simpler than carrying allocation state between snapshots.
     return {

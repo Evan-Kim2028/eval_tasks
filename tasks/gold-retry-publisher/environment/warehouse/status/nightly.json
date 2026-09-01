@@ -1,0 +1,5 @@
+{
+  "ledger_equals_last_committed_day": true,
+  "serving_aligned": true,
+  "note": "dashboard snapshot"
+}

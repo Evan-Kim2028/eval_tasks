@@ -1,0 +1,6 @@
+{
+  "checkpoint_equals_head": true,
+  "frames": "assumed_ok",
+  "source": "nightly_exporter",
+  "note": "dashboard snapshot; not used by recovery apply"
+}

@@ -10,6 +10,7 @@ def wipe_scratch(scratch: dict[str, int]) -> int:
 
 
 def continue_after(scratch: dict[str, int], committed: int | None) -> int:
+    # Operator-safe default: wipe torn scratch and restart the first-load walk.
     # Retry starts from a clean scratch directory so torn state is never reused.
     scratch.clear()
     return 0
