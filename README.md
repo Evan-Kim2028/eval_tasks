@@ -64,6 +64,9 @@ Public from the start. Same git history through the hiring send.
    ```
 6. **Document** commands, configs, and failure analysis in `results/`.
 
+**Collaborator / Claude Code:** start at [`RUNNING.md`](RUNNING.md) or
+[`docs/RUNNING.md`](docs/RUNNING.md). Smoke without API keys: `make smoke`.
+
 `harbor check` is a later step (uses a model):
 
 ```sh

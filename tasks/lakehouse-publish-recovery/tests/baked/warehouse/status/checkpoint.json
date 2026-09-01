@@ -1,4 +1,6 @@
 {
+  "head": "snapshot-commit-current",
+  "checkpoint": "snapshot-commit-current",
   "checkpoint_equals_head": true,
   "frames": "assumed_ok",
   "source": "nightly_exporter",
