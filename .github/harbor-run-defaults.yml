@@ -1,10 +1,7 @@
-# Local Harbor defaults. Published TB CI uses env: modal; we use docker.
-#
-# TB3 CI default pair: Opus 5 max + Codex GPT-5.6 Sol xhigh.
-# This repo substitutes Grok Build + grok-4.6 xhigh for Codex.
+# Local Harbor defaults. env: docker.
+# /run pair: Opus 5 max + Grok Build grok-4.6 xhigh.
 # make frontier-grok uses scripts/grok_build_oauth.py (grok.com OAuth).
-# The stock harbor grok-build agent listed below needs XAI_API_KEY if used
-# without that wrapper.
+# Stock harbor grok-build needs XAI_API_KEY if used without that wrapper.
 
 trials: 3
 env: docker

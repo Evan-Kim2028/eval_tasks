@@ -79,9 +79,7 @@ frontier-claude:
 frontier-claude-once:
 	$(MAKE) --no-print-directory frontier-claude FRONTIER_ATTEMPTS=1
 
-# TB3 CI default second agent is Codex + GPT-5.6 Sol xhigh. This repo
-# substitutes Harbor grok-build + grok-4.6 xhigh, authenticated with the
-# grok.com OAuth session at ~/.grok/auth.json (no XAI_API_KEY).
+# Harbor grok-build + grok-4.6 xhigh via grok.com OAuth (~/.grok/auth.json).
 frontier-grok:
 	@test -f "$${HOME}/.grok/auth.json" || (echo "run: grok login --oauth" >&2; exit 1)
 	PYTHONPATH="$(SCRIPTS)" harbor run -p $(TASK) \
