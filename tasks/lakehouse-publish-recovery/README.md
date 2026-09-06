@@ -34,8 +34,8 @@ compatibility, and the absence of empty recovery commits.
 
 ## Relevant experience
 
-I run a production Pokémon TCG sales and listings lakehouse (Iceberg, daily
-gold rebuilds, checkpointed publishers, schema evolution). This fixture
+I run a production Pokémon TCG sales and listings lakehouse (daily gold
+rebuilds, checkpointed publishers, schema evolution). This fixture
 compresses recovery bugs that showed up there: two-phase publish versus
 checkpoint, shard resume, peer CAS, and epoch field IDs.
 
