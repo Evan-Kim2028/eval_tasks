@@ -7,5 +7,5 @@ Emits the `logged-bandit-ope` task instance. Knobs are the production
 and the production draw out of `/app`, not by adding services.
 
 ```sh
-python3 generators/estimator-pair/generate.py --out tasks/logged-bandit-ope
+python3 generators/estimator-pair/generate.py --out experimental/logged-bandit-ope
 ```

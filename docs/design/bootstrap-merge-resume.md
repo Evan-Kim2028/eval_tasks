@@ -1,7 +1,7 @@
 # bootstrap-merge-resume
 
 TB5-candidate (new-task milestone). Implemented under
-`tasks/bootstrap-merge-resume/`.
+`experimental/bootstrap-merge-resume/`.
 
 Hermetic fixture of a first-load gold publish incident. No live SSH.
 
