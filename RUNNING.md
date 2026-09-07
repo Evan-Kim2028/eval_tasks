@@ -1,6 +1,7 @@
 # Running the lakehouse task
 
-Full guide: [`docs/RUNNING.md`](docs/RUNNING.md).
+Repo map and walkthrough: [`README.md`](README.md).
+Full Harbor guide: [`docs/RUNNING.md`](docs/RUNNING.md).
 Checklist: [`docs/TB3-SUBMISSION-CHECKLIST.md`](docs/TB3-SUBMISSION-CHECKLIST.md).
 
 ## Setup
